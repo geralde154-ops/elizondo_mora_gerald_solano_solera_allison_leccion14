@@ -11,6 +11,7 @@ export default function App() {
       <Menu />
       <Routes>
         <Route path="/" element={<Dashboard/>}/>
+        <Route path="/herramientas" element={<Herramientas />} />
       </Routes>
     </BrowserRouter>
       
