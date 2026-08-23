@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-function Formulario() {
+export default function Formulario() {
   const [nombre, setNombre] = useState('');
   const [correo, setCorreo] = useState('');
   const [errores, setErrores] = useState({});
@@ -64,4 +64,3 @@ function Formulario() {
   );
 }
 
-export default Formulario;

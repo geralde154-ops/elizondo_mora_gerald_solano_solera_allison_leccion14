@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-function ToggleTema() {
+export default function ToggleTema() {
   const [oscuro, setOscuro] = useState(true);
 
   useEffect(() => {
@@ -17,5 +17,3 @@ function ToggleTema() {
     </div>
   );
 }
-
-export default ToggleTema;
