@@ -1,8 +1,7 @@
 import { useState } from 'react';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
-
-import Herramientas from './pages/Herramientas';
-
+import Dashboard from './pages/Dashboard';
+import Menu from './components/Menu';
 
 
 export default function App() {
@@ -11,7 +10,7 @@ export default function App() {
     <BrowserRouter>
       <Menu />
       <Routes>
-        
+        <Route path="/" element={<Dashboard/>}/>
         <Route path="/herramientas" element={<Herramientas />} />
       </Routes>
     </BrowserRouter>
