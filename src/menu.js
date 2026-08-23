@@ -1,4 +1,4 @@
 export const menu = [
   
-  { nombre: "Herramientas", ruta: "/herramientas" }
+  { nombre: "Herramientas", ruta: "/herramientas" },
 ];
